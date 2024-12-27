@@ -1,0 +1,7 @@
+Before running, make sure you have the proper environment set up in anaconda3, with important libraries installed such as Minari(D4RL), gymnasium, numpy, and torch. Make sure you also have Mujoco for gym to render.
+
+Run TD3BC.py to see the result. The TD3+BC algorithm follows the paper "A Minimalist Approach to Offline Reinforcement Learning". See citation page if needed.
+
+You can adjust the number of epochs to train the policy, as well as the number of steps you want to take when rendering results. You can also see the dense reward and average if you want to.
+
+This code has torch running on Cuda.
